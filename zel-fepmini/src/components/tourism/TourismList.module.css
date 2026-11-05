@@ -1,0 +1,29 @@
+@import '../../styles/variables.css';
+
+/* ──────────────────────────────────────────────
+   Grid layout
+   Single column on mobile (≤768px);
+   auto-fill multi-column on wider viewports.
+────────────────────────────────────────────── */
+.grid {
+  display: grid;
+  gap: var(--space-lg);
+  grid-template-columns: 1fr; /* mobile default: 1 column */
+  padding: var(--space-lg) 0;
+}
+
+@media (min-width: 769px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+}
+
+/* ──────────────────────────────────────────────
+   Empty state
+────────────────────────────────────────────── */
+.empty {
+  text-align: center;
+  color: #6b7280;
+  padding: var(--space-lg) 0;
+  font-size: 1rem;
+}

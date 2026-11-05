@@ -1,0 +1,50 @@
+@import '../../styles/variables.css';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  text-align: center;
+  max-width: 480px;
+  margin: var(--space-lg) auto;
+}
+
+.icon {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.message {
+  margin: 0;
+  color: #b91c1c;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.retryButton {
+  display: inline-block;
+  padding: var(--space-sm) var(--space-lg);
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-base);
+  box-shadow: var(--shadow-md);
+}
+
+.retryButton:hover {
+  background-color: #1d4ed8;
+}
+
+.retryButton:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}

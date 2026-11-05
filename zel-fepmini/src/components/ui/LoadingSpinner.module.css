@@ -1,0 +1,36 @@
+@import '../../styles/variables.css';
+
+/* Wrapper centers the spinner and message within its containing block */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  padding: var(--space-lg);
+}
+
+/* Spinning ring */
+.spinner {
+  width: 48px;
+  height: 48px;
+  border: 4px solid rgba(37, 99, 235, 0.2); /* --color-primary at low opacity */
+  border-top-color: var(--color-primary);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Optional caption below the spinner */
+.message {
+  margin: 0;
+  color: var(--color-primary);
+  font-size: 0.875rem;
+  text-align: center;
+  transition: var(--transition-base);
+}

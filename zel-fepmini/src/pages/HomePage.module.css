@@ -1,0 +1,25 @@
+@import '../styles/variables.css';
+
+/* Page wrapper — full-height flex column so footer sticks to bottom */
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content area — grows to fill remaining space between header and footer */
+.main {
+  flex: 1;
+  padding: var(--space-lg) var(--space-md);
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Wider side padding on larger screens */
+@media (min-width: 769px) {
+  .main {
+    padding: var(--space-lg);
+  }
+}

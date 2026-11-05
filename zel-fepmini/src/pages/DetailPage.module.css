@@ -1,0 +1,104 @@
+@import '../styles/variables.css';
+
+/* ── Page layout ─────────────────────────────────────────────── */
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+  background-color: #f9fafb;
+  padding: var(--space-lg) var(--space-md);
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+/* ── Back button row ─────────────────────────────────────────── */
+.backRow {
+  display: flex;
+}
+
+/* ── Page title ──────────────────────────────────────────────── */
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #111827;
+  margin: 0;
+  line-height: 1.25;
+}
+
+/* ── Hero image ──────────────────────────────────────────────── */
+.imageWrapper {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  background-color: #e5e7eb;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 450px;
+  object-fit: cover;
+  transition: var(--transition-base);
+}
+
+/* ── Detail sections ─────────────────────────────────────────── */
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  background-color: #ffffff;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  padding: var(--space-lg);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.sectionTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.description {
+  font-size: 1rem;
+  color: #374151;
+  line-height: 1.75;
+  margin: 0;
+}
+
+.text {
+  font-size: 1rem;
+  color: #374151;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ── Responsive ──────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .details {
+    padding: var(--space-md);
+  }
+}

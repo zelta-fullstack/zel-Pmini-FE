@@ -1,0 +1,315 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Setup project dependencies and folder structure": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793870920235
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793870934645
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793871069821
+      }
+    ],
+    "2.1 Create `src/styles/variables.css` with CSS custom properties: `--color-primary`, `--color-secondary`, `--space-sm`, `--space-md`, `--space-lg`, `--radius-md`, `--shadow-md`, `--transition-base`": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793870922391
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793871073554
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793871122526
+      }
+    ],
+    "2.2 Create `src/styles/global.css` with box-sizing reset, body font, and base typography; import `variables.css`": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793870923088
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793871077023
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793871125861
+      }
+    ],
+    "3. Create API service": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793870923427
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793871129448
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793871157356
+      }
+    ],
+    "4. Create TourismContext": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793870923975
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793871160665
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793871629612
+      }
+    ],
+    "5.1 Create `src/components/ui/LoadingSpinner.jsx` and `LoadingSpinner.module.css`": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793870924288
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793871633990
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793872000509
+      }
+    ],
+    "5.2 Create `src/components/ui/ErrorMessage.jsx` and `ErrorMessage.module.css`": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793870924570
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793871637660
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793872004007
+      }
+    ],
+    "5.3 Create `src/components/ui/Button.jsx` and `Button.module.css`": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793870924855
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793871641276
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793872007502
+      }
+    ],
+    "6.1 Create `src/components/layout/Header.jsx` and `Header.module.css`": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793870925219
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793871644650
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793872011720
+      }
+    ],
+    "6.2 Create `src/components/layout/Footer.jsx` and `Footer.module.css`": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793870925529
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793871647943
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793872015891
+      }
+    ],
+    "7. Create TourismCard component": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793870925800
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793872020613
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793872118155
+      }
+    ],
+    "8. Create TourismList component": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793870926056
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793872024125
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793872121602
+      }
+    ],
+    "9. Create HomePage": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793870926491
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793872485936
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793873030711
+      }
+    ],
+    "10. Create DetailPage": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793870926768
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793872489853
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793873034176
+      }
+    ],
+    "11. Create NotFoundPage": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793870927051
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793872125544
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793872478891
+      }
+    ],
+    "12. Setup routing in App.jsx": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793870927382
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793873038097
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793873497825
+      }
+    ],
+    "13. Update main.jsx": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793870927789
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793873502073
+      },
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793874248022
+      }
+    ],
+    "2. Create global CSS files": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793871126265
+      }
+    ],
+    "5. Create UI components": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793872007978
+      }
+    ],
+    "6. Create Layout components": [
+      {
+        "executionId": "b69172d3-5e52-492b-aabb-4ef51f2fb2d2",
+        "chatSessionId": "sess_223cb55f-f64e-47dc-baf1-806d56c4244e",
+        "timestamp": 1793872016338
+      }
+    ]
+  }
+}

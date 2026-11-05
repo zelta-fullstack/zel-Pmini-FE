@@ -1,0 +1,54 @@
+@import '../../styles/variables.css';
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-sm) var(--space-lg);
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-base);
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* Primary variant */
+.primary {
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+
+.primary:hover:not(:disabled) {
+  /* Lighten by overlaying a semi-transparent white */
+  background-color: #1d4ed8; /* slightly darker shade of primary (#2563eb) */
+  box-shadow: var(--shadow-md);
+}
+
+.primary:active:not(:disabled) {
+  background-color: #1e40af;
+}
+
+/* Secondary variant */
+.secondary {
+  background-color: var(--color-secondary);
+  color: #ffffff;
+}
+
+.secondary:hover:not(:disabled) {
+  /* Slightly darker shade of secondary (#10b981) */
+  background-color: #059669;
+  box-shadow: var(--shadow-md);
+}
+
+.secondary:active:not(:disabled) {
+  background-color: #047857;
+}
